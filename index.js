@@ -8,14 +8,15 @@ function numberRandom  (myArray){
 
 let symbolA = symbol[numberRandom(symbol)];
 if(symbolA=="\u2665" || symbolA=="\u2666"){
-    document.querySelector(".symbolUp").style.color="red";
-    document.querySelector(".symbolDown").style.color="red";
-    document.querySelector(".symbolCenter").style.color="red";
+    document.querySelector(".symbolUp").style.color="#c72b39"
+    document.querySelector(".symbolDown").style.color="#c72b39"
+    document.querySelector(".symbolCenter").style.color="#c72b39"
 }
 
 else{
-    document.querySelector(".symbolUp").style.color="black";
-    document.querySelector(".symbolDown").style.color="black";
+    document.querySelector(".symbolUp").style.color="#333333"
+    document.querySelector(".symbolDown").style.color="#333333"
+    document.querySelector(".symbolCenter").style.color="#333333"
 }
 
 document.querySelector(".symbolUp").innerHTML= symbolA;
