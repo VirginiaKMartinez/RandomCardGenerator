@@ -9,8 +9,10 @@ body{
 }
 
 .card{
+   
     background: #fdfdfd;
     margin: auto;
+    padding: 16px;
     margin-top: 5%;
     height: 600px;
     width: 350px;
@@ -19,17 +21,28 @@ body{
 }
 
 .symbolUp{
-    font-size: 54px;
+    font-size: 72px;
+    margin: 0;
+    text-align: left;
+    
+    
 
 
 }
 
 .symbolCenter{
-
-
+    font-size: 72px;
+    margin: 0;
+    padding-top: 50%;
+    text-align: center;
+   
 }
 
 .symbolDown{
-
-
-}
+     transform: rotate(180deg);
+    font-size: 72px;
+    margin: 0;
+    padding-bottom: 50%;
+    text-align: left;
+   
+   }
